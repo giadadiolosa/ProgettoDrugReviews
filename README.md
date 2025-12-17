@@ -27,7 +27,9 @@ E' stato utilizzato Random Forest, assieme ad un metodo di rappresentazione del 
 contiene tutti i file precedenti, prodotti all'esecuzione del file "drug_review_classification_balanced.py"
 #### Cartella "studio random forest":
 contiene un file, sempre prodotto dal nostro codice, che indica il modo in cui ha lavorato il nostro modello (trained_model.pkl) assieme ad un file python realizzato per visualizzarlo (trained-randomforest.py)
-#### File da ignorare
+
+
+Nota: i file .DS_Store e .gitattributes sono da ignorare
 
 
 
