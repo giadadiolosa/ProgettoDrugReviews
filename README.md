@@ -19,7 +19,7 @@ E' stato utilizzato Random Forest, assieme ad un metodo di rappresentazione del 
 - drug_review_classification_balanced.py -> codice del progetto con aggiunto:         `RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1, class_weight='balanced')`
 #### Cartella "outputs":
   1. predictions_summary.csv -> contiene le recensioni, assieme alla classificazione reale e predetta dal modello
-  2. examples.csv -> ha il medesimo contenuto ma con solo 30 recensioni (per vederne un esempio
+  2. examples.csv -> ha il medesimo contenuto ma con solo 30 recensioni (per vederne un esempio)
   3. summary_counts.csv -> ha un riassunto delle classificazioni reali e predette
   4. confusion_matrix.png -> è un'immagine prodotta dal codice che rappresenta la matrice di confusione
   5. classification_report -> file dove si può osservare quanto è stato preciso il nostro modello
