@@ -17,16 +17,17 @@ E' stato utilizzato Random Forest, assieme ad un metodo di rappresentazione del 
 - drugLibTrain_raw.tsv, drugLibTest_raw.tsv -> file scaricati da UCI Machine Learning Repository
 - drug_review_classification.py -> codice del progetto
 - drug_review_classification_balanced.py -> codice del progetto con aggiunto:         `RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1, class_weight='balanced')`
-#### - cartella "outputs":
+#### Cartella "outputs":
   1. predictions_summary.csv -> contiene le recensioni, assieme alla classificazione reale e predetta dal modello
   2. examples.csv -> ha il medesimo contenuto ma con solo 30 recensioni (per vederne un esempio
   3. summary_counts.csv -> ha un riassunto delle classificazioni reali e predette
   4. confusion_matrix.png -> è un'immagine prodotta dal codice che rappresenta la matrice di confusione
   5. classification_report -> file dove si può osservare quanto è stato preciso il nostro modello
-#### - cartella "outputsBalanced": 
+#### Cartella "outputsBalanced": 
 contiene tutti i file precedenti, prodotti all'esecuzione del file "drug_review_classification_balanced.py"
-#### - cartella "studio random forest":
+#### Cartella "studio random forest":
 contiene un file, sempre prodotto dal nostro codice, che indica il modo in cui ha lavorato il nostro modello (trained_model.pkl) assieme ad un file python realizzato per visualizzarlo (trained-randomforest.py)
+#### File da ignorare
 
 
 
