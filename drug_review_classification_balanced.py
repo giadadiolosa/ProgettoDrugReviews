@@ -1,10 +1,3 @@
-'''
-drug_review_summary_classification.py
-Progetto: Classificazione sentiment (negativa / neutra / positiva)
-Dataset: Drug Review (Druglib.com)
-Output: crea report, matrice di confusione, modello e 3 CSV riassuntivi
-'''
-
 import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
