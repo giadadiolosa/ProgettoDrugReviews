@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
@@ -9,7 +7,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import pickle
-from tabulate import tabulate  # <-- AGGIUNTO QUI
+from tabulate import tabulate 
 
 # --- Percorsi dei file ---
 TRAIN_FILE = "drugLibTrain_raw.tsv"
