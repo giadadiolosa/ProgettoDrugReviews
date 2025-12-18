@@ -59,7 +59,7 @@ def train_and_evaluate(df):
     
     model = make_pipeline(
         TfidfVectorizer(stop_words='english', max_df=0.9, min_df=3),
-        RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1, class_weight='balanced')
+        RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1)
         
     )
     
