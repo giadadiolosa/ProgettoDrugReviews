@@ -2,8 +2,8 @@
 ## Introduzione
 Abbiamo analizzato il Drug Reviews Dataset (https://www.google.com/search?q=Druglib.com) che contiene recensioni da parte di pazienti su farmaci specifici, utilizzato per studiare la loro efficacia e i loro effetti collaterali, oltre a permettere di fare la classificazione del sentiment (Positivo, Neutro o Negativo).
 ### Il dataset è suddiviso in:
--> un set di traning (75%), chiamato "drugLibTrain_raw.tsv"
--> un set di test (25%), chiamato "drugLibTest_raw.tsv"
+- un set di traning (75%), chiamato "drugLibTrain_raw.tsv"
+- un set di test (25%), chiamato "drugLibTest_raw.tsv"
 ### Modello di Machine Learning utilizzato
 E' stato utilizzato Random Forest, assieme ad un metodo di rappresentazione del testo TF-IDF
 ### Librerie da installare:
